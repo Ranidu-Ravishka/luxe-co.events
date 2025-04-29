@@ -2,24 +2,25 @@
 
 ![Luxe & Co. Events Banner](luxe-co-events-logo.png)
 
-A **web-based Wedding Planning and Client Management System** built to simplify and enhance wedding coordination in Sri Lanka.
+**Luxe & Co. Events** is a modern, web-based **Wedding Planning and Client Management System** tailored for streamlining wedding coordination in Sri Lanka. Our platform empowers planners and clients with real-time collaboration, detailed checklists, vendor directories, and more — all from a responsive, user-friendly interface.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- **Real-time Collaboration** between planners and clients  
-- **Budget Tracking & Vendor Management** with integrated directories  
-- **Customizable Checklists & Guest List** management  
-- **Secure Authentication** using JWT and data encryption  
-- **Responsive UI** built with React.js
+- 🤝 **Real-Time Collaboration** between planners and clients  
+- 💸 **Budget Tracking & Vendor Management** with integrated directories  
+- ✅ **Customizable Checklists & Guest List** management  
+- 💳 **Secure Payment Integration** via Stripe  
+- 📊 **Admin Dashboard** with intuitive UI and analytics  
+- 🌐 **Responsive Design** built using HTML, CSS3, and JavaScript  
 
 ---
 
 ## 🎨 Design Prototype
 
-Check out our UI/UX design on Figma:  
-🔗 [View Figma Design](https://www.figma.com/design/JtvEUm0ZAz2vJIHw7Jt5Lr/Luxe-Co.Event?node-id=0-1&t=xDHMwRv1d6OIGQvS-1)
+Explore our Figma UI/UX prototype:  
+🔗 [View on Figma](https://www.figma.com/design/JtvEUm0ZAz2vJIHw7Jt5Lr/Luxe-Co.Event?node-id=0-1&t=xDHMwRv1d6OIGQvS-1)
 
 ---
 
