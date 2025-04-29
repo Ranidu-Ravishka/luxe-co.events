@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="32" viewBox="0 0 100 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M7.5 3.5h85c2.2 0 4 1.8 4 4v17c0 2.2-1.8 4-4 4h-85c-2.2 0-4-1.8-4-4v-17c0-2.2 1.8-4 4-4z" fill="#003087"/>
+    <path d="M7.5 3.5h85c2.2 0 4 1.8 4 4v17c0 2.2-1.8 4-4 4h-85c-2.2 0-4-1.8-4-4v-17c0-2.2 1.8-4 4-4z" fill="#009cde"/>
+    <path d="M7.5 3.5h85c2.2 0 4 1.8 4 4v17c0 2.2-1.8 4-4 4h-85c-2.2 0-4-1.8-4-4v-17c0-2.2 1.8-4 4-4z" fill="#012169"/>
+    <path d="M7.5 3.5h85c2.2 0 4 1.8 4 4v17c0 2.2-1.8 4-4 4h-85c-2.2 0-4-1.8-4-4v-17c0-2.2 1.8-4 4-4z" fill="#ffffff"/>
+    <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="#003087" font-family="Arial" font-weight="bold" font-size="16">PayPal</text>
+</svg> 

@@ -1,0 +1,78 @@
+[30-Mar-2025 15:50:51 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 15:53:08 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 15:59:04 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 15:59:29 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:03:04 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:03:35 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:04:33 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:04:41 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:04:48 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:06:11 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:09:13 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\login.php on line 9
+[30-Mar-2025 16:09:25 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:09:28 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:09:31 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:09:32 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:09:34 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:09:40 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\login.php on line 9
+[30-Mar-2025 16:39:14 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:39:26 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:39:28 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php on line 16
+[30-Mar-2025 16:42:41 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 5
+[30-Mar-2025 16:42:41 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\login.php on line 5
+[30-Mar-2025 16:42:57 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\login.php on line 5
+[30-Mar-2025 16:43:23 Asia/Kolkata] PHP Warning:  Undefined array key "role" in C:\xampp\htdocs\WeddinPlaning\admin\login.php on line 5
+[30-Mar-2025 16:43:26 Asia/Kolkata] PHP Warning:  require_once(../includes/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:43:26 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php:2
+Stack trace:
+#0 C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:44:08 Asia/Kolkata] PHP Warning:  require_once(../includes/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:44:08 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php:2
+Stack trace:
+#0 C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:46:07 Asia/Kolkata] PHP Warning:  require_once(../includes/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:46:07 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php:2
+Stack trace:
+#0 C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:46:10 Asia/Kolkata] PHP Warning:  require_once(../includes/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:46:10 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php:2
+Stack trace:
+#0 C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:46:31 Asia/Kolkata] PHP Warning:  require_once(../includes/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:46:31 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php:2
+Stack trace:
+#0 C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:46:32 Asia/Kolkata] PHP Warning:  require_once(../includes/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:46:32 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php:2
+Stack trace:
+#0 C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:46:32 Asia/Kolkata] PHP Warning:  require_once(../includes/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:46:32 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php:2
+Stack trace:
+#0 C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:46:32 Asia/Kolkata] PHP Warning:  require_once(../includes/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:46:32 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php:2
+Stack trace:
+#0 C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:46:52 Asia/Kolkata] PHP Warning:  require_once(../includes/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2
+[30-Mar-2025 16:46:52 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Failed opening required '../includes/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php:2
+Stack trace:
+#0 C:\xampp\htdocs\WeddinPlaning\admin\api\bookings.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\WeddinPlaning\admin\auth_check.php on line 2

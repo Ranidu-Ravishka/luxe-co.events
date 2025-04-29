@@ -1,0 +1,81 @@
+Registration attempt at 2025-04-06 00:35:58
+POST data: Array
+(
+    [full_name] => Visal Denuwan
+    [email] => visalrajapaksha195@gmail.com
+    [password] => 12341234
+    [confirm_password] => 12341234
+    [agree_terms] => on
+)
+
+Received data:
+Full Name: Visal Denuwan
+Email: visalrajapaksha195@gmail.com
+Validation errors: none
+Database connection successful
+User registered successfully
+Registration attempt at 2025-04-06 01:13:05
+POST data: Array
+(
+    [full_name] => test user
+    [email] => test@example.com
+    [password] => 12341234
+    [confirm_password] => 12341234
+    [agree_terms] => on
+)
+
+Received data:
+Full Name: test user
+Email: test@example.com
+Validation errors: none
+Database connection successful
+User registered successfully
+Registration attempt at 2025-04-07 02:00:02
+POST data: Array
+(
+    [full_name] => Visal Denuwan
+    [email] => visalrajapaksha195@gmail.com
+    [password] => 12341234
+    [confirm_password] => 12341234
+    [agree_terms] => on
+)
+
+Received data:
+Full Name: Visal Denuwan
+Email: visalrajapaksha195@gmail.com
+Validation errors: none
+Database connection successful
+User registered successfully
+Registration attempt at 2025-04-23 19:08:17
+POST data: Array
+(
+    [full_name] => Shalika Weeraman
+    [email] => shalika@gmail.com
+    [password] => shalika1010
+    [confirm_password] => shalika1010
+    [agree_terms] => on
+)
+
+Received data:
+Full Name: Shalika Weeraman
+Email: shalika@gmail.com
+Validation errors: none
+Database connection successful
+User registered successfully
+Registration attempt at 2025-04-27 20:16:06
+POST data: Array
+(
+    [full_name] => Ranidu Ravishka
+    [email] => raniduravishka1010@gmail.com
+    [password] => ranidu1010
+    [confirm_password] => ranidu1010
+    [agree_terms] => on
+)
+
+Received data:
+Full Name: Ranidu Ravishka
+Email: raniduravishka1010@gmail.com
+Validation errors: none
+Database connection successful
+Email already exists: raniduravishka1010@gmail.com
+Registration failed with errors: Email already exists
