@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Check if user is logged in
     if (!isset($_SESSION['user_id'])) {
         $_SESSION['error'] = "Please log in to submit your wedding plan.";
-        header("Location: /WeddinPlaning/includes/login & registration.php");
+        header("Location: " . site_url('includes/login & registration.php'));
         exit();
     }
 
@@ -95,7 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $conn->close();
 
     // Redirect to home page
-    header("Location: /WeddinPlaning/pages/index.php");
+    header("Location: " . site_url('pages/index.php'));
     exit();
 }
 ?> 

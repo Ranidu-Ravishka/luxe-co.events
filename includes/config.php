@@ -31,6 +31,45 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
+function app_base_url() {
+    $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || ($_SERVER['SERVER_PORT'] ?? 80) == 443 ? 'https://' : 'http://';
+    $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
+    $script_name = $_SERVER['SCRIPT_NAME'] ?? '';
+    $script_dir = str_replace('\\', '/', dirname($script_name));
+
+    if ($script_dir === '/' || $script_dir === '\\') {
+        $script_dir = '';
+    }
+
+    $script_dir = preg_replace('#/(?:includes|pages|admin)$#', '', $script_dir);
+    $script_dir = rtrim($script_dir, '/');
+
+    return $scheme . $host . $script_dir;
+}
+
+function site_url($path = '') {
+    $base = rtrim(app_base_url(), '/');
+    $fragment = '';
+    $query = '';
+
+    if (strpos($path, '#') !== false) {
+        [$path, $fragment] = explode('#', $path, 2);
+        $fragment = '#' . $fragment;
+    }
+
+    if (strpos($path, '?') !== false) {
+        [$path, $query] = explode('?', $path, 2);
+        $query = '?' . $query;
+    }
+
+    $path = '/' . ltrim((string) $path, '/');
+    $normalized = preg_replace('#/+#', '/', str_replace('\\', '/', $path));
+    $segments = array_values(array_filter(explode('/', $normalized), static fn($segment) => $segment !== ''));
+    $encoded = implode('/', array_map('rawurlencode', $segments));
+
+    return $base . '/' . $encoded . $query . $fragment;
+}
+
 // Function to check if user is logged in
 function isLoggedIn() {
     return isset($_SESSION['user_id']);

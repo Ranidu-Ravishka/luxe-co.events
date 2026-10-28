@@ -8,8 +8,8 @@ define('PAYPAL_MODE', 'sandbox'); // Change to 'live' for production
 define('PAYPAL_CURRENCY', 'USD');
 
 // Success and cancel URLs
-define('PAYPAL_SUCCESS_URL', 'http://localhost/WeddinPlaning/pages/payment_success.php');
-define('PAYPAL_CANCEL_URL', 'http://localhost/WeddinPlaning/pages/payment_cancel.php');
+define('PAYPAL_SUCCESS_URL', site_url('pages/payment_success.php'));
+define('PAYPAL_CANCEL_URL', site_url('pages/payment_cancel.php'));
 
 // PayPal API endpoints
 define('PAYPAL_API_BASE', PAYPAL_MODE === 'sandbox' 

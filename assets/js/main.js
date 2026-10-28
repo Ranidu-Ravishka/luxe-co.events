@@ -1518,7 +1518,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Redirect to account page
                 setTimeout(() => {
-                    window.location.href = '/WeddinPlaning/pages/account.php#bookings';
+                    window.location.href = 'account.php#bookings';
                 }, 800);
             }
         });

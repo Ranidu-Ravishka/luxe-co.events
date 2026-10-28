@@ -1,22 +1,29 @@
+<?php
+require_once __DIR__ . '/config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, viewport-fit=cover">
     <title>Luxe & Co. Events - Wedding Planning</title>
+    <meta name="theme-color" content="#171714">
+    <meta name="description" content="Luxury wedding planning and events by Luxe & Co. Events.">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Slick Slider CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
     <!-- Magnific Popup CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/WeddinPlaning/assets/css/style.css">
+    <link rel="stylesheet" href="<?= site_url('assets/css/style.css'); ?>">
     <style>
         /* Navigation Styles */
         .navbar {
@@ -437,8 +444,8 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="/WeddinPlaning/pages/index.php">
-                <img src="/WeddinPlaning/assets/images/logo.png" alt="Luxe & Co. Events Logo">
+            <a class="navbar-brand" href="<?= site_url('pages/index.php'); ?>">
+                <img src="<?= site_url('assets/images/logo.png'); ?>" alt="Luxe & Co. Events Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -446,14 +453,14 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="/WeddinPlaning/pages/index.php">Home</a>
+                        <a class="nav-link" href="<?= site_url('pages/index.php'); ?>">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Services
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/WeddinPlaning/pages/services.php">All Services</a></li>
+                            <li><a class="dropdown-item" href="<?= site_url('pages/services.php'); ?>">All Services</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <?php
                             require_once(__DIR__ . '/../includes/config.php');
@@ -464,22 +471,20 @@
                             $result = $stmt->get_result();
                             
                             while ($category = $result->fetch_assoc()) {
-                                echo '<li><a class="dropdown-item" href="/WeddinPlaning/pages/category-services.php?id=' . 
-                                     htmlspecialchars($category['id']) . '">' . 
-                                     htmlspecialchars($category['name']) . '</a></li>';
+                                echo '<li><a class="dropdown-item" href="' . site_url('pages/category-services.php?id=' . (int) $category['id']) . '">' . htmlspecialchars($category['name']) . '</a></li>';
                             }
                             $stmt->close();
                             ?>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/WeddinPlaning/pages/index.php#gallery">Gallery</a>
+                        <a class="nav-link" href="<?= site_url('pages/index.php#gallery'); ?>">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/WeddinPlaning/pages/index.php#testimonials">Testimonials</a>
+                        <a class="nav-link" href="<?= site_url('pages/index.php#testimonials'); ?>">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/WeddinPlaning/pages/cart.php" class="cart-icon">
+                        <a href="<?= site_url('pages/cart.php'); ?>" class="cart-icon">
                             <i class="fas fa-shopping-cart"></i>
                         </a>
                     </li>
@@ -498,32 +503,32 @@
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end account-dropdown">
                             <li>
-                                <a class="dropdown-item d-flex align-items-center" href="/WeddinPlaning/pages/account.php#profile">
+                                <a class="dropdown-item d-flex align-items-center" href="<?= site_url('pages/account.php#profile'); ?>">
                                     <i class="fas fa-user me-2"></i>
                                     <span>Profile</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item d-flex align-items-center" href="/WeddinPlaning/pages/account.php#bookings">
+                                <a class="dropdown-item d-flex align-items-center" href="<?= site_url('pages/account.php#bookings'); ?>">
                                     <i class="fas fa-calendar-check me-2"></i>
                                     <span>My Bookings</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item d-flex align-items-center" href="/WeddinPlaning/pages/account.php#payments">
+                                <a class="dropdown-item d-flex align-items-center" href="<?= site_url('pages/account.php#payments'); ?>">
                                     <i class="fas fa-credit-card me-2"></i>
                                     <span>Payments</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item d-flex align-items-center" href="/WeddinPlaning/pages/account.php#settings">
+                                <a class="dropdown-item d-flex align-items-center" href="<?= site_url('pages/account.php#settings'); ?>">
                                     <i class="fas fa-cog me-2"></i>
                                     <span>Settings</span>
                                 </a>
                             </li>
                             <li><hr class="dropdown-divider"></li>
                             <li>
-                                <a class="dropdown-item d-flex align-items-center text-danger" href="/WeddinPlaning/pages/logout.php">
+                                <a class="dropdown-item d-flex align-items-center text-danger" href="<?= site_url('pages/logout.php'); ?>">
                                     <i class="fas fa-sign-out-alt me-2"></i>
                                     <span>Logout</span>
                                 </a>
@@ -532,7 +537,7 @@
                     </li>
                     <?php else: ?>
                     <li class="nav-item">
-                        <a href="/WeddinPlaning/includes/login & registration.php" class="btn btn-outline-primary ms-2">Login</a>
+                        <a href="<?= site_url('includes/login & registration.php'); ?>" class="btn btn-outline-primary ms-2">Login</a>
                     </li>
                     <?php endif; ?>
                 </ul>
@@ -549,7 +554,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="bridalInfoForm" class="needs-validation" novalidate action="/WeddinPlaning/includes/process_planning.php" method="POST" enctype="multipart/form-data">
+                    <form id="bridalInfoForm" class="needs-validation" novalidate action="<?= site_url('includes/process_planning.php'); ?>" method="POST" enctype="multipart/form-data">
                         <!-- Progress Bar -->
                         <div class="progress mb-4" style="height: 5px;">
                             <div class="progress-bar bg-pink" role="progressbar" style="width: 0%;" id="formProgress"></div>

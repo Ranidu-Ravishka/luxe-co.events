@@ -25,6 +25,6 @@ session_start();
 $_SESSION['success_message'] = 'You have been successfully logged out.';
 
 // Redirect to home page with the correct absolute path
-header("Location: /WeddinPlaning/pages/index.php");
+header("Location: " . site_url('pages/index.php'));
 exit();
 ?> 

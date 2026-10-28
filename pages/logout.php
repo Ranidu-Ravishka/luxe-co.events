@@ -35,6 +35,6 @@ if (session_status() == PHP_SESSION_NONE) {
 $_SESSION['success'] = "You have been successfully logged out.";
 
 // Redirect to the home page
-header("Location: /WeddinPlaning/index.php");
+header("Location: " . site_url('pages/index.php'));
 exit();
 ?> 
